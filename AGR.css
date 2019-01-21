@@ -26,6 +26,16 @@ p {
   margin-left: 150px;
 }
 
+ul {
+   display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+  color: #FFE9AA;
+  font-family: 'Permanent Marker', cursive;
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
 .btn-primary {
   position: absolute;
   top: 60%;
