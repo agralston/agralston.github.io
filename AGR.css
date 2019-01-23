@@ -12,6 +12,7 @@ h1 {
 	display: flex;
   justify-content: center;
   margin-top: 80px;
+  padding: 25px;
   color: #FFE9AA;
   font-family: 'Permanent Marker', cursive;
 }
@@ -27,7 +28,7 @@ p {
 }
 
 ul {
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: flex-end; 
   color: #FFE9AA;
