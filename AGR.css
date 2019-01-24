@@ -11,8 +11,8 @@ body {
 h1 {
 	display: flex;
   justify-content: center;
-  margin-top: 80px;
-  padding: 25px;
+  margin-top: 40px;
+  padding: 10px;
   color: #FFE9AA;
   font-family: 'Permanent Marker', cursive;
 }
@@ -25,11 +25,11 @@ p {
   font-family: 'Permanent Marker', cursive;
   margin-right: 150px;
   margin-left: 150px;
+  padding: 15px 50px;
 }
 
-ul {
+.body {
   display: flex;
-  justify-content: center;
   align-items: flex-end; 
   color: #FFE9AA;
   font-family: 'Permanent Marker', cursive;
@@ -37,14 +37,24 @@ ul {
   margin-left: 250px;
 }
 
+pre {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; 
+  color: #FFE9AA;
+  font-family: 'Permanent Marker', cursive;
+}
+
 .btn-primary {
   position: absolute;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #D4B96A;
+  background-image: url(AGR3.jpg);
+  text-decoration: none;
   border: 5px solid black;
   color: black;
+  box-shadow: 5px 5px;
   font-family: 'Permanent Marker', cursive;
   font-size: 30px;
   color: solid black;
@@ -59,9 +69,10 @@ ul {
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #D4B96A;
+  background-image: url(AGR3.jpg);
   border: 5px solid black;
   color: black;
+  box-shadow: 5px 5px;
   font-family: 'Permanent Marker', cursive;
   font-size: 30px;
   color: solid black;
@@ -71,6 +82,15 @@ ul {
   text-align: center;
   justify-content: center;
   align-items: flex-end; 
+}
+
+img {
+ margin: auto;
+ margin-top: 3%;
+ display: flex;
+  align-items: flex-end; 
+  border: 5px solid white;
+  align-items: flex-end;
 }
 
 .footer {
